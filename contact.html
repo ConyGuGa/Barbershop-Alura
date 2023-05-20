@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Barbershop Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleContact.css">
+</head>
+
+<body>
+
+    <header>
+
+        <fieldset class="divBox">
+
+            <h1><img src="Images/logo.png" alt="Logo of Hipster Barbon Person"></h1>
+
+            <nav>
+                <ul>
+
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+
+
+        </fieldset>
+
+    </header>
+
+    <main>
+
+        <form>
+
+            <label for="fLName">First Name & Last Name</label>
+            <input type="text" id="fLName" class="inputPadron" required>
+
+            <label for="emailAdress">Email</label>
+            <input type="email" id="emailAdress" class="inputPadron" required placeholder="email@domain.com">
+
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" class="inputPadron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="message">Message</label>
+            <textarea name="" id="message" cols="70" rows="10"></textarea>
+
+            <fieldset>
+
+                <legend>How can we contact you?</legend>
+
+                <label for="radioEmail"><input type="radio" name="contactWay" value="Email"
+                        id="radioEmail">Email</label>
+
+                <label for="radioPhone"><input type="radio" name="contactWay" value="Phone"
+                        id="radioPhone">Phone</label>
+
+                <label for="radioWhatsApp"><input type="radio" name="contactWay" value="WhatsApp" id="radioWhatsApp"
+                        checked>WhatsApp</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>What time do you prefer that we contact you?</legend>
+                <select>
+
+                    <option value="">Morning</option>
+                    <option value="">Afternoon</option>
+                    <option value="">Night</option>
+
+                </select>
+
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Do you want recive news?</label>
+
+            <input class="send" type="submit" value="Send From">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Schedule</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>08h - 20h</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <footer>
+
+        <img src="Images/logo-blanco.png" alt="White Logo of Barbon Hipster">
+        <p class="copyAndBy">&copy Copyright Alura Barbershop - 2023</p>
+        <p class="copyAndBy">By <a href="https://github.com/ConyGuGa">Cony GuGa</a></p>
+
+    </footer>
+
+</body>
+
+</html>

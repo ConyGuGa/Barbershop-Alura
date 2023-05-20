@@ -1,0 +1,169 @@
+body {
+
+    background: #000;
+}
+
+header {
+
+    background-color: #cccccc;
+    padding: 20px 0;
+
+}
+
+.divBox {
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav {
+
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a {
+
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+
+    color: #daa520;
+    font-size: 30px;
+   
+}
+
+nav a:active {
+
+    color: #ffd700;
+   
+}
+
+main {
+
+    color: #cccccc;
+
+}
+
+.products {
+
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.products li {
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+
+}
+
+.products li:hover {
+
+    color: #daa520;
+    border-color: #daa520;
+   
+}
+
+.products li:active {
+
+    color: #ffd700;
+    border-color: #ffd700;
+   
+}
+
+.products h2 {
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* .products li:hover h2 {
+
+    color: #daa520;
+    border-color: #daa520;
+    font-size: 35px;
+   
+} */
+
+.products img {
+
+    margin: 10px 0;
+    border-radius: 10px;
+
+}
+
+.descriptionProduction {
+
+    font-size: 18px;
+
+}
+
+.costProduction {
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+
+    text-align: center;
+    background-image: url(Images/bg.jpg);
+    padding: 40px;
+
+}
+
+.copyAndBy {
+
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.copyAndBy a {
+
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.copyAndBy a:hover {
+
+    color: #ff00ff;
+    font-size: 20px;
+
+}
+
+.copyAndBy a:active {
+
+    color: #8b008b;
+    font-style: italic;
+
+}
